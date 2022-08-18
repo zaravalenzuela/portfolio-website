@@ -41,6 +41,10 @@ nav a:hover {
   text-decoration: none;
 }
 
+p {
+  color: #404040;
+}
+
 .banner {
   display: grid;
   grid-template-areas: "banner";
@@ -69,6 +73,7 @@ nav a:hover {
   width: 1000px;
   margin: auto;
   padding-bottom: 2rem;
+  gap: 2rem;
 }
 
 .abt {
@@ -78,6 +83,8 @@ nav a:hover {
 #wrk {
   text-align: center;
   padding-bottom: 2rem;
+  padding-left: 7rem;
+  padding-right: 7rem;
 }
 
 #portfolio {
@@ -106,13 +113,14 @@ article a:hover {
 article p {
   text-align: left;
   padding: 1rem;
+  color: #404040;
 }
 
 .button {
   padding: 1rem;
   margin: auto;
-  background-color: #000000;
-  color: #FFFFFF;
+  background-color: #333333;
+  color: #ffffff;
 }
 
 #contact-me {
@@ -140,6 +148,7 @@ article p {
   color: #696969;
   text-decoration: none;
 }
+
 
 footer {
   text-align: center;
