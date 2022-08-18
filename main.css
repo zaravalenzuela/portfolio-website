@@ -1,6 +1,6 @@
 html {
     box-sizing: border-box;
-    background-color: #FFFFFF;
+    background-color: #ffffff;
     line-height: 1.5;
   }
 
@@ -65,7 +65,7 @@ p {
   left: 0;
   z-index: 1;
   padding-left: 3rem;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #about-me {
