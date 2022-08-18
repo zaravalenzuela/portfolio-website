@@ -63,3 +63,82 @@ nav a:hover {
   padding-left: 3rem;
   color: #FFFFFF;
 }
+
+#about-me {
+  display: flex;
+  width: 1000px;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+.abt {
+  padding: 1rem;
+}
+
+#wrk {
+  text-align: center;
+}
+
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+article {
+  flex: 300px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+article a {
+  text-decoration: none;
+}
+
+article a:hover {
+  color: #696969;
+  text-decoration: none;
+}
+
+article p {
+  text-align: left;
+  padding: 1rem;
+}
+
+.button {
+  padding: 1rem;
+  margin: auto;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+#contact-me {
+  text-align: center;
+}
+
+#contact-me ul {
+  display: flex;
+  justify-content: center;
+  padding: .5rem 1rem;
+  margin: 0;
+}
+
+#contact-me li {
+  list-style-type: none;
+  padding: 1rem 1rem;
+}
+
+#contact-me a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#contact-me a:hover {
+  color: #696969;
+  text-decoration: none;
+}
+
+footer {
+  text-align: center;
+}
