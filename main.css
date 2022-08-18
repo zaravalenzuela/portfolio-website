@@ -26,3 +26,40 @@ nav ul {
   display: flex;
   align-content: flex-end;
 }
+
+nav li {
+  padding: 2rem 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000000;
+}
+
+nav a:hover {
+  color: #696969;
+  text-decoration: none;
+}
+
+.banner {
+  display: grid;
+  grid-template-areas: "banner";
+  place-items: center;
+  place-items: center;
+  place-content: center;
+  margin: 0 auto 5rem;
+  position: relative;
+}
+
+.banner img {
+  width: 100%
+}
+
+.banner h1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  padding-left: 3rem;
+  color: #FFFFFF;
+}
